@@ -43,6 +43,10 @@ button {
   outline: none;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
 /* //TOP// */
 
 .top {
@@ -54,8 +58,8 @@ button {
 
 .try {
   justify-self: end;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   color: hsl(192, 100%, 9%);
